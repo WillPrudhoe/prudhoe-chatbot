@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secure Upload</title>
+</head>
+<body>
+  <h2>Upload Knowledge File</h2>
+  <form method="POST" action="/upload" enctype="multipart/form-data">
+    <label>Password: <input type="password" name="password" /></label><br/><br/>
+    <input type="file" name="file" />
+    <button type="submit">Upload</button>
+  </form>
+</body>
+</html>
